@@ -17,8 +17,12 @@ struct ContentView: View {
 
             Text("Hello, world!")
         }
-        .navigationTitle("Content")
         .padding()
+        .background(.black)
+        .cornerRadius(30)
+        .shadow(color: .green, radius: 0.8)
+        .rotation3DEffect(Angle(degrees: 30), axis: (0, 1.0, 0))
+        .navigationTitle("Content")
     }
 }
 
