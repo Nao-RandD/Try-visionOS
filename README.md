@@ -2,6 +2,10 @@
 
 Welcome to the visionOS Documentation Project! This repository contains code examples and resources based on Apple's official visionOS documentation. The primary goal of this project is to enhance your understanding of visionOS by providing practical code samples that you can run and experiment with.
 
+## Resources
+
+- Official visionOS Documentation: [Apple visionOS Documentation](https://developer.apple.com/documentation/visionos/creating-your-first-visionos-app)
+
 ## About visionOS
 
 visionOS is a cutting-edge technology developed by Apple that focuses on computer vision and visual recognition tasks. This powerful framework allows developers to create applications that can analyze and interpret visual data, enabling a wide range of use cases from image recognition to augmented reality.
@@ -30,12 +34,4 @@ To get started with the visionOS Documentation Project, follow these steps:
 
 We welcome contributions from the community to enhance and expand the visionOS Documentation Project. If you've discovered interesting use cases, optimizations, or additional examples, please consider opening a pull request. Make sure to follow the [contribution guidelines](CONTRIBUTING.md) for a smooth collaboration process.
 
-## Resources
 
-- Official visionOS Documentation: [Apple visionOS Documentation](https://developer.apple.com/documentation/visionos/creating-your-first-visionos-app)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE), which means you're free to use, modify, and distribute the code examples for your own purposes.
-
-Let's dive into the exciting world of visionOS and unlock the potential of computer vision together!
