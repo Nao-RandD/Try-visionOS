@@ -2,8 +2,10 @@
 
 Welcome to the visionOS Documentation Project! This repository contains code examples and resources based on Apple's official visionOS documentation. The primary goal of this project is to enhance your understanding of visionOS by providing practical code samples that you can run and experiment with.
 
-We have placed the code to be presented at this event here
-https://vision-os.connpass.com/event/293186/
+We have placed the code to be presented at this event below.
+
+[Session 1](https://vision-os.connpass.com/event/293186/
+)
 
 ## Resources
 
