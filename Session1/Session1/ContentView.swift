@@ -12,13 +12,17 @@ import RealityKitContent
 struct ContentView: View {
     var body: some View {
         VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
             Text("Hello, world!")
+            Model3DView()
+            SphereView()
         }
-        .navigationTitle("Content")
         .padding()
+        .background(.black)
+        .cornerRadius(30)
+        .shadow(color: .green, radius: 0.8)
+        // Windowを回転させる
+//        .rotation3DEffect(Angle(degrees: 30), axis: (0, 1.0, 0))
+        .navigationTitle("Content")
     }
 }
 
