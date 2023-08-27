@@ -13,6 +13,8 @@
 		7F7403B22A86096200FE6F5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F7403B12A86096200FE6F5E /* Assets.xcassets */; };
 		7F7403B52A86096200FE6F5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F7403B42A86096200FE6F5E /* Preview Assets.xcassets */; };
 		7F7403BC2A863BD900FE6F5E /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7403BB2A863BD900FE6F5E /* ImmersiveView.swift */; };
+		7F75A5E32A9B1D400096857A /* SphereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75A5E22A9B1D400096857A /* SphereView.swift */; };
+		7F75A5E52A9B1DAB0096857A /* Model3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F75A5E42A9B1DAB0096857A /* Model3DView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,9 @@
 		7F7403B12A86096200FE6F5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F7403B42A86096200FE6F5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F7403BB2A863BD900FE6F5E /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		7F75A5E22A9B1D400096857A /* SphereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SphereView.swift; sourceTree = "<group>"; };
+		7F75A5E42A9B1DAB0096857A /* Model3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model3DView.swift; sourceTree = "<group>"; };
+		7F75A5E62A9B1FE40096857A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +62,12 @@
 		7F7403A82A86095F00FE6F5E /* Session1 */ = {
 			isa = PBXGroup;
 			children = (
+				7F75A5E62A9B1FE40096857A /* Info.plist */,
 				7F7403AD2A86095F00FE6F5E /* Session1App.swift */,
 				7F7403AF2A86095F00FE6F5E /* ContentView.swift */,
 				7F7403BB2A863BD900FE6F5E /* ImmersiveView.swift */,
+				7F75A5E22A9B1D400096857A /* SphereView.swift */,
+				7F75A5E42A9B1DAB0096857A /* Model3DView.swift */,
 				7F7403B12A86096200FE6F5E /* Assets.xcassets */,
 				7F7403B32A86096200FE6F5E /* Preview Content */,
 			);
@@ -156,6 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F7403B02A86095F00FE6F5E /* ContentView.swift in Sources */,
+				7F75A5E32A9B1D400096857A /* SphereView.swift in Sources */,
+				7F75A5E52A9B1DAB0096857A /* Model3DView.swift in Sources */,
 				7F7403AE2A86095F00FE6F5E /* Session1App.swift in Sources */,
 				7F7403BC2A863BD900FE6F5E /* ImmersiveView.swift in Sources */,
 			);
@@ -294,6 +304,7 @@
 				DEVELOPMENT_TEAM = 44SQBVTPVY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Session1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -320,6 +331,7 @@
 				DEVELOPMENT_TEAM = 44SQBVTPVY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Session1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
