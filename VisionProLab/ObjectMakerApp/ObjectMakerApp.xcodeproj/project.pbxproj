@@ -15,7 +15,7 @@
 		7FB8280A2AB6966300A301CC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7FB828092AB6966300A301CC /* FirebaseFirestore */; };
 		7FB8280C2AB6966300A301CC /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7FB8280B2AB6966300A301CC /* FirebaseFirestoreSwift */; };
 		7FB8280E2AB6966300A301CC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7FB8280D2AB6966300A301CC /* FirebaseStorage */; };
-		7FC3E2CD2AB5DED400D78CE1 /* ObjectMakerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC3E2CC2AB5DED400D78CE1 /* ObjectMakerAppApp.swift */; };
+		7FC3E2CD2AB5DED400D78CE1 /* ObjectMakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC3E2CC2AB5DED400D78CE1 /* ObjectMakerApp.swift */; };
 		7FC3E2CF2AB5DED400D78CE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC3E2CE2AB5DED400D78CE1 /* ContentView.swift */; };
 		7FC3E2D12AB5DED900D78CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC3E2D02AB5DED900D78CE1 /* Assets.xcassets */; };
 		7FC3E2D42AB5DED900D78CE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC3E2D32AB5DED900D78CE1 /* Preview Assets.xcassets */; };
@@ -33,7 +33,7 @@
 		7F6526322AB6A2B000BFEA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7F6526342AB6A2D400BFEA38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FC3E2C92AB5DED400D78CE1 /* ObjectMakerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectMakerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FC3E2CC2AB5DED400D78CE1 /* ObjectMakerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMakerAppApp.swift; sourceTree = "<group>"; };
+		7FC3E2CC2AB5DED400D78CE1 /* ObjectMakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMakerApp.swift; sourceTree = "<group>"; };
 		7FC3E2CE2AB5DED400D78CE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7FC3E2D02AB5DED900D78CE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FC3E2D32AB5DED900D78CE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				7F6526332AB6A2C200BFEA38 /* Shared */,
-				7FC3E2CB2AB5DED400D78CE1 /* ObjectMakerApp */,
+				7FC3E2CB2AB5DED400D78CE1 /* ObjectMaker */,
 				7FC3E2DF2AB5E02F00D78CE1 /* ObjectMakerVision */,
 				7FC3E2E02AB5E02F00D78CE1 /* Packages */,
 				7FC3E2CA2AB5DED400D78CE1 /* Products */,
@@ -101,17 +101,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7FC3E2CB2AB5DED400D78CE1 /* ObjectMakerApp */ = {
+		7FC3E2CB2AB5DED400D78CE1 /* ObjectMaker */ = {
 			isa = PBXGroup;
 			children = (
 				7F6526312AB6A28000BFEA38 /* Info.plist */,
-				7FC3E2CC2AB5DED400D78CE1 /* ObjectMakerAppApp.swift */,
+				7FC3E2CC2AB5DED400D78CE1 /* ObjectMakerApp.swift */,
 				7FC3E2CE2AB5DED400D78CE1 /* ContentView.swift */,
 				7FC3E2D02AB5DED900D78CE1 /* Assets.xcassets */,
 				7FC3E2FE2AB5E1F600D78CE1 /* GoogleService-Info.plist */,
 				7FC3E2D22AB5DED900D78CE1 /* Preview Content */,
 			);
-			path = ObjectMakerApp;
+			path = ObjectMaker;
 			sourceTree = "<group>";
 		};
 		7FC3E2D22AB5DED900D78CE1 /* Preview Content */ = {
@@ -276,7 +276,7 @@
 			files = (
 				7F6526352AB6A2D400BFEA38 /* AppDelegate.swift in Sources */,
 				7FC3E2CF2AB5DED400D78CE1 /* ContentView.swift in Sources */,
-				7FC3E2CD2AB5DED400D78CE1 /* ObjectMakerAppApp.swift in Sources */,
+				7FC3E2CD2AB5DED400D78CE1 /* ObjectMakerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
