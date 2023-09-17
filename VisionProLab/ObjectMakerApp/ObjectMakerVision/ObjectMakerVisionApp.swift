@@ -9,6 +9,9 @@ import SwiftUI
 
 @main
 struct ObjectMakerVisionApp: App {
+
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+
     var body: some Scene {
         WindowGroup {
             ContentView()

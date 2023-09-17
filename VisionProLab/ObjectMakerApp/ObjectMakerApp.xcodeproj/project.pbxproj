@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F6526352AB6A2D400BFEA38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6526342AB6A2D400BFEA38 /* AppDelegate.swift */; };
+		7F6526362AB6A32A00BFEA38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6526342AB6A2D400BFEA38 /* AppDelegate.swift */; };
 		7FB828042AB6964D00A301CC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7FB828032AB6964D00A301CC /* FirebaseFirestore */; };
 		7FB828062AB6964D00A301CC /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7FB828052AB6964D00A301CC /* FirebaseFirestoreSwift */; };
 		7FB828082AB6964D00A301CC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 7FB828072AB6964D00A301CC /* FirebaseStorage */; };
@@ -27,6 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F6526312AB6A28000BFEA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7F6526322AB6A2B000BFEA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7F6526342AB6A2D400BFEA38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FC3E2C92AB5DED400D78CE1 /* ObjectMakerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectMakerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC3E2CC2AB5DED400D78CE1 /* ObjectMakerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMakerAppApp.swift; sourceTree = "<group>"; };
 		7FC3E2CE2AB5DED400D78CE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,9 +72,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F6526332AB6A2C200BFEA38 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7F6526342AB6A2D400BFEA38 /* AppDelegate.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		7FC3E2C02AB5DED400D78CE1 = {
 			isa = PBXGroup;
 			children = (
+				7F6526332AB6A2C200BFEA38 /* Shared */,
 				7FC3E2CB2AB5DED400D78CE1 /* ObjectMakerApp */,
 				7FC3E2DF2AB5E02F00D78CE1 /* ObjectMakerVision */,
 				7FC3E2E02AB5E02F00D78CE1 /* Packages */,
@@ -90,6 +104,7 @@
 		7FC3E2CB2AB5DED400D78CE1 /* ObjectMakerApp */ = {
 			isa = PBXGroup;
 			children = (
+				7F6526312AB6A28000BFEA38 /* Info.plist */,
 				7FC3E2CC2AB5DED400D78CE1 /* ObjectMakerAppApp.swift */,
 				7FC3E2CE2AB5DED400D78CE1 /* ContentView.swift */,
 				7FC3E2D02AB5DED900D78CE1 /* Assets.xcassets */,
@@ -110,6 +125,7 @@
 		7FC3E2DF2AB5E02F00D78CE1 /* ObjectMakerVision */ = {
 			isa = PBXGroup;
 			children = (
+				7F6526322AB6A2B000BFEA38 /* Info.plist */,
 				7FC3E2E42AB5E02F00D78CE1 /* ObjectMakerVisionApp.swift */,
 				7FC3E2E62AB5E02F00D78CE1 /* ContentView.swift */,
 				7FC3E2E82AB5E03400D78CE1 /* Assets.xcassets */,
@@ -258,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F6526352AB6A2D400BFEA38 /* AppDelegate.swift in Sources */,
 				7FC3E2CF2AB5DED400D78CE1 /* ContentView.swift in Sources */,
 				7FC3E2CD2AB5DED400D78CE1 /* ObjectMakerAppApp.swift in Sources */,
 			);
@@ -267,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F6526362AB6A32A00BFEA38 /* AppDelegate.swift in Sources */,
 				7FC3E2E72AB5E02F00D78CE1 /* ContentView.swift in Sources */,
 				7FC3E2E52AB5E02F00D78CE1 /* ObjectMakerVisionApp.swift in Sources */,
 			);
@@ -405,6 +423,7 @@
 				DEVELOPMENT_TEAM = 44SQBVTPVY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ObjectMakerApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -437,6 +456,7 @@
 				DEVELOPMENT_TEAM = 44SQBVTPVY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ObjectMakerApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -469,6 +489,7 @@
 				DEVELOPMENT_TEAM = 44SQBVTPVY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ObjectMakerVision/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -497,6 +518,7 @@
 				DEVELOPMENT_TEAM = 44SQBVTPVY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ObjectMakerVision/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
