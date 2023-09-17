@@ -23,7 +23,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     func setupFirebaseLocalEmulator() {
         var host = "127.0.0.1"
         #if !targetEnvironment(simulator)
-        host = "10.18.104.50"
+        host = "192.168.11.6"
         #endif
 
         // MARK: Firestore

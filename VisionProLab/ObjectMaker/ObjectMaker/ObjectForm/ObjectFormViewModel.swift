@@ -110,7 +110,7 @@ class ObjectFormViewModel: ObservableObject {
             let fileCacheURL = cacheDirURL.appending(path: "temp_\(id).usdz")
             try? data.write(to: fileCacheURL)
 
-            let thumbnailRequest = QLThumbnailGenerator.Request(fileAt: fileCacheURL, 
+            let thumbnailRequest = QLThumbnailGenerator.Request(fileAt: fileCacheURL,
                                                                 size: .init(width: 300, height: 300),
                                                                 scale: UIScreen.main.scale, representationTypes: .all)
 

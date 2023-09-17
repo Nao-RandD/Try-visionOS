@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FAA50392AB70C710090B9D6 /* ObjectFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA50382AB70C710090B9D6 /* ObjectFormView.swift */; };
+		7FAA503B2AB712EF0090B9D6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA503A2AB712EF0090B9D6 /* String+Extension.swift */; };
 		7FEF6D792AB6AB2200387254 /* ObjectMakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF6D782AB6AB2200387254 /* ObjectMakerApp.swift */; };
-		7FEF6D7B2AB6AB2200387254 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF6D7A2AB6AB2200387254 /* ContentView.swift */; };
 		7FEF6D7D2AB6AB2500387254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6D7C2AB6AB2500387254 /* Assets.xcassets */; };
 		7FEF6D802AB6AB2500387254 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6D7F2AB6AB2500387254 /* Preview Assets.xcassets */; };
 		7FEF6D8F2AB6AB7E00387254 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 7FEF6D8E2AB6AB7E00387254 /* RealityKitContent */; };
@@ -36,9 +37,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7FAA50382AB70C710090B9D6 /* ObjectFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectFormView.swift; sourceTree = "<group>"; };
+		7FAA503A2AB712EF0090B9D6 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		7FEF6D752AB6AB2200387254 /* ObjectMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FEF6D782AB6AB2200387254 /* ObjectMakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMakerApp.swift; sourceTree = "<group>"; };
-		7FEF6D7A2AB6AB2200387254 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7FEF6D7C2AB6AB2500387254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FEF6D7F2AB6AB2500387254 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7FEF6D8A2AB6AB7E00387254 /* ObjectMakerVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectMakerVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,11 +111,10 @@
 			isa = PBXGroup;
 			children = (
 				7FEF6DCC2AB6DEFF00387254 /* ObjectForm */,
-				7FEF6DC22AB6B46C00387254 /* Views */,
 				7FEF6D9C2AB6AB9400387254 /* Info.plist */,
 				7FEF6DC72AB6B7A100387254 /* GoogleService-Info.plist */,
+				7FEF6DC32AB6B48300387254 /* ObjectListView.swift */,
 				7FEF6D782AB6AB2200387254 /* ObjectMakerApp.swift */,
-				7FEF6D7A2AB6AB2200387254 /* ContentView.swift */,
 				7FEF6D7C2AB6AB2500387254 /* Assets.xcassets */,
 				7FEF6D7E2AB6AB2500387254 /* Preview Content */,
 			);
@@ -170,6 +171,7 @@
 				7FEF6DBD2AB6B17800387254 /* ViewModels */,
 				7FEF6DBA2AB6B08300387254 /* Models */,
 				7FEF6DB52AB6ACE100387254 /* AppDelegate.swift */,
+				7FAA503A2AB712EF0090B9D6 /* String+Extension.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -190,19 +192,12 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		7FEF6DC22AB6B46C00387254 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				7FEF6DC32AB6B48300387254 /* ObjectListView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		7FEF6DCC2AB6DEFF00387254 /* ObjectForm */ = {
 			isa = PBXGroup;
 			children = (
 				7FEF6DC92AB6DE1300387254 /* ObjectFormViewModel.swift */,
 				7FEF6DCD2AB6DF2B00387254 /* Contents.swift */,
+				7FAA50382AB70C710090B9D6 /* ObjectFormView.swift */,
 			);
 			path = ObjectForm;
 			sourceTree = "<group>";
@@ -323,13 +318,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FAA50392AB70C710090B9D6 /* ObjectFormView.swift in Sources */,
 				7FEF6DB62AB6ACE100387254 /* AppDelegate.swift in Sources */,
 				7FEF6DC42AB6B48300387254 /* ObjectListView.swift in Sources */,
 				7FEF6DC12AB6B2FD00387254 /* ObjectItem.swift in Sources */,
 				7FEF6DCA2AB6DE1300387254 /* ObjectFormViewModel.swift in Sources */,
-				7FEF6D7B2AB6AB2200387254 /* ContentView.swift in Sources */,
 				7FEF6D792AB6AB2200387254 /* ObjectMakerApp.swift in Sources */,
 				7FEF6DC02AB6B2F700387254 /* ObjectListViewModel.swift in Sources */,
+				7FAA503B2AB712EF0090B9D6 /* String+Extension.swift in Sources */,
 				7FEF6DCE2AB6DF2B00387254 /* Contents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
