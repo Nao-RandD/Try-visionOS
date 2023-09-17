@@ -8,7 +8,7 @@
 import SwiftUI
 import SafariServices
 import UniformTypeIdentifiers
-//import USDZScanner
+import USDZScanner
 
 struct ObjectFormView: View {
 
@@ -57,7 +57,10 @@ struct ObjectFormView: View {
         }, set: { _ in
             viewModel.selectedUSDZSource = nil
         }), content: {
-            // TODO: USDZScanner
+            USDZScanner { url in
+                Task { await viewModel.uploadUSDZ(fileURL: url) }
+                viewModel.selectedUSDZSource = nil
+            }
         })
         .fileImporter(isPresented: .init(get: {
             viewModel.selectedUSDZSource == .fileImporter

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7FAA50392AB70C710090B9D6 /* ObjectFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA50382AB70C710090B9D6 /* ObjectFormView.swift */; };
 		7FAA503B2AB712EF0090B9D6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA503A2AB712EF0090B9D6 /* String+Extension.swift */; };
+		7FAA503E2AB725700090B9D6 /* USDZScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 7FAA503D2AB725700090B9D6 /* USDZScanner */; };
 		7FEF6D792AB6AB2200387254 /* ObjectMakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF6D782AB6AB2200387254 /* ObjectMakerApp.swift */; };
 		7FEF6D7D2AB6AB2500387254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6D7C2AB6AB2500387254 /* Assets.xcassets */; };
 		7FEF6D802AB6AB2500387254 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6D7F2AB6AB2500387254 /* Preview Assets.xcassets */; };
@@ -69,6 +70,7 @@
 				7FEF6DA92AB6ACB300387254 /* FirebaseFirestore in Frameworks */,
 				7FEF6DAB2AB6ACB300387254 /* FirebaseFirestoreSwift in Frameworks */,
 				7FEF6DAD2AB6ACB300387254 /* FirebaseStorage in Frameworks */,
+				7FAA503E2AB725700090B9D6 /* USDZScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +224,7 @@
 				7FEF6DA82AB6ACB300387254 /* FirebaseFirestore */,
 				7FEF6DAA2AB6ACB300387254 /* FirebaseFirestoreSwift */,
 				7FEF6DAC2AB6ACB300387254 /* FirebaseStorage */,
+				7FAA503D2AB725700090B9D6 /* USDZScanner */,
 			);
 			productName = ObjectMaker;
 			productReference = 7FEF6D752AB6AB2200387254 /* ObjectMaker.app */;
@@ -279,6 +282,7 @@
 			mainGroup = 7FEF6D6C2AB6AB2200387254;
 			packageReferences = (
 				7FEF6DA62AB6AC9C00387254 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				7FAA503C2AB725700090B9D6 /* XCRemoteSwiftPackageReference "USDZScanner" */,
 			);
 			productRefGroup = 7FEF6D762AB6AB2200387254 /* Products */;
 			projectDirPath = "";
@@ -482,6 +486,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -516,6 +521,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -623,6 +629,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		7FAA503C2AB725700090B9D6 /* XCRemoteSwiftPackageReference "USDZScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alfianlosari/USDZScanner.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
 		7FEF6DA62AB6AC9C00387254 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
@@ -634,6 +648,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		7FAA503D2AB725700090B9D6 /* USDZScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FAA503C2AB725700090B9D6 /* XCRemoteSwiftPackageReference "USDZScanner" */;
+			productName = USDZScanner;
+		};
 		7FEF6D8E2AB6AB7E00387254 /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;

@@ -89,6 +89,9 @@ class ObjectFormViewModel: ObservableObject {
             return
         }
         guard let data = try? Data(contentsOf: fileURL) else { return }
+        if isSecurityScopoedResource {
+            fileURL.stopAccessingSecurityScopedResource()
+        }
         uploadProgress = .init(fractionCompleted: 0, totalUnitCount: 0, completedUnitCount: 0)
         loadingState = .uploading(.usdz)
 
