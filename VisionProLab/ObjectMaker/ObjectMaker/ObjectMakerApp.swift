@@ -1,14 +1,14 @@
 //
-//  ObjectMakerVisionApp.swift
-//  ObjectMakerVision
+//  ObjectMakerApp.swift
+//  ObjectMaker
 //
-//  Created by Nao RandD on 2023/09/16.
+//  Created by Nao RandD on 2023/09/17.
 //
 
 import SwiftUI
 
 @main
-struct ObjectMakerVisionApp: App {
+struct ObjectMakerApp: App {
 
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
 

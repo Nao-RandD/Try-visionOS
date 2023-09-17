@@ -1,11 +1,10 @@
 //
 //  AppDelegate.swift
-//  ObjectMakerApp
+//  ObjectMaker
 //
 //  Created by Nao RandD on 2023/09/17.
 //
 
-import Foundation
 import FirebaseCore
 import FirebaseStorage
 import FirebaseFirestore
