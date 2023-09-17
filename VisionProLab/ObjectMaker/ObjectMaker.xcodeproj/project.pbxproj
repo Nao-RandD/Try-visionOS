@@ -31,6 +31,8 @@
 		7FEF6DC12AB6B2FD00387254 /* ObjectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF6DBB2AB6B09500387254 /* ObjectItem.swift */; };
 		7FEF6DC42AB6B48300387254 /* ObjectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF6DC32AB6B48300387254 /* ObjectListView.swift */; };
 		7FEF6DC82AB6B7A100387254 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6DC72AB6B7A100387254 /* GoogleService-Info.plist */; };
+		7FEF6DCA2AB6DE1300387254 /* ObjectFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF6DC92AB6DE1300387254 /* ObjectFormViewModel.swift */; };
+		7FEF6DCE2AB6DF2B00387254 /* Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF6DCD2AB6DF2B00387254 /* Contents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		7FEF6DBE2AB6B19600387254 /* ObjectListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectListViewModel.swift; sourceTree = "<group>"; };
 		7FEF6DC32AB6B48300387254 /* ObjectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectListView.swift; sourceTree = "<group>"; };
 		7FEF6DC72AB6B7A100387254 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7FEF6DC92AB6DE1300387254 /* ObjectFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectFormViewModel.swift; sourceTree = "<group>"; };
+		7FEF6DCD2AB6DF2B00387254 /* Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,7 @@
 		7FEF6D772AB6AB2200387254 /* ObjectMaker */ = {
 			isa = PBXGroup;
 			children = (
+				7FEF6DCC2AB6DEFF00387254 /* ObjectForm */,
 				7FEF6DC22AB6B46C00387254 /* Views */,
 				7FEF6D9C2AB6AB9400387254 /* Info.plist */,
 				7FEF6DC72AB6B7A100387254 /* GoogleService-Info.plist */,
@@ -191,6 +196,15 @@
 				7FEF6DC32AB6B48300387254 /* ObjectListView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		7FEF6DCC2AB6DEFF00387254 /* ObjectForm */ = {
+			isa = PBXGroup;
+			children = (
+				7FEF6DC92AB6DE1300387254 /* ObjectFormViewModel.swift */,
+				7FEF6DCD2AB6DF2B00387254 /* Contents.swift */,
+			);
+			path = ObjectForm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,9 +326,11 @@
 				7FEF6DB62AB6ACE100387254 /* AppDelegate.swift in Sources */,
 				7FEF6DC42AB6B48300387254 /* ObjectListView.swift in Sources */,
 				7FEF6DC12AB6B2FD00387254 /* ObjectItem.swift in Sources */,
+				7FEF6DCA2AB6DE1300387254 /* ObjectFormViewModel.swift in Sources */,
 				7FEF6D7B2AB6AB2200387254 /* ContentView.swift in Sources */,
 				7FEF6D792AB6AB2200387254 /* ObjectMakerApp.swift in Sources */,
 				7FEF6DC02AB6B2F700387254 /* ObjectListViewModel.swift in Sources */,
+				7FEF6DCE2AB6DF2B00387254 /* Contents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
