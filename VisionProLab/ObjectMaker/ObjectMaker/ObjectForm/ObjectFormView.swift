@@ -48,7 +48,7 @@ struct ObjectFormView: View {
                 viewModel.selectedUSDZSource = .fileImporter
             }
 
-            Button("Object Capture") {
+            Button("Object Captureを使用") {
                 viewModel.selectedUSDZSource = .objectCapture
             }
         }

@@ -13,6 +13,8 @@ struct ObjectListView: View {
     @State var formType: FormType?
 
     var body: some View {
+        LottieView(resourceType: .placeholder)
+            .frame(width: 300, height: 200)
         List {
             ForEach(viewModel.items) { item in
                 ObjectListItemView(item: item)

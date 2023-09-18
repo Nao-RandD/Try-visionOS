@@ -15,6 +15,7 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         FirebaseApp.configure()
 
+        // ローカル環境での検証時に用いる
         setupFirebaseLocalEmulator()
 
         return true
