@@ -11,10 +11,20 @@ import SwiftUI
 struct ObjectMakerVisionApp: App {
 
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @StateObject var navigationViewModel = NavigationViewModel()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                ObjectListView()
+                    .environmentObject(navigationViewModel)
+            }
         }
+
+        WindowGroup(id: "item") {
+            ObjectItemView().environmentObject(navigationViewModel)
+        }
+        .windowStyle(.volumetric)
+        .defaultSize(width: 1, height: 1, depth: 1, in: .meters)
     }
 }
