@@ -28,7 +28,7 @@ struct ObjectListView: View {
             .padding(.horizontal, 30)
 
         }
-        .navigationTitle("XCA AR Inventory")
+        .navigationTitle("Object Collector")
         .onAppear { viewModel.listenItems() }
     }
 }
